@@ -1,0 +1,39 @@
+Initialize engine version: 4.6.0f3 (30840d631a27)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.0]
+    Renderer: Intel(R) Graphics Media Accelerator HD (ID=0x42)
+    Vendor:   Intel
+    VRAM:     32 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\wataru\Desktop\unity\RPG\reimubinbou_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\wataru\Desktop\unity\RPG\reimubinbou_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\wataru\Desktop\unity\RPG\reimubinbou_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\wataru\Desktop\unity\RPG\reimubinbou_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\wataru\Desktop\unity\RPG\reimubinbou_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\wataru\Desktop\unity\RPG\reimubinbou_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\wataru\Desktop\unity\RPG\reimubinbou_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\wataru\Desktop\unity\RPG\reimubinbou_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  1.539 seconds
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\wataru\Desktop\unity\RPG\reimubinbou_Data\Managed\System.Core.dll (this message is harmless)
+UnloadTime: 0.417130 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 604.
+Total: 0.848959 ms (FindLiveObjects: 0.022046 ms CreateObjectMapping: 0.014697 ms MarkObjects: 0.159923 ms  DeleteObjects: 0.012247 ms)
+
+UnloadTime: 0.903550 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 600.
+Total: 25.716532 ms (FindLiveObjects: 0.166922 ms CreateObjectMapping: 0.053191 ms MarkObjects: 0.321246 ms  DeleteObjects: 0.012597 ms)
+
+UnloadTime: 0.957441 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 600.
+Total: 1.393818 ms (FindLiveObjects: 0.041993 ms CreateObjectMapping: 0.029745 ms MarkObjects: 0.177070 ms  DeleteObjects: 0.007348 ms)
+

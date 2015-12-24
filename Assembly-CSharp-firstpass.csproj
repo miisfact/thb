@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<RootNamespace></RootNamespace>
+	<ProjectGuid>{562EB5F8-F357-4E4D-66E8-B2F1E8746E40}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_2_1;UNITY_5_2;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_REFLECTION_BUFFERS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_32;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\AppCCloud.cs" />
+     <Compile Include="Assets\Plugins\IMobileIconParams.cs" />
+     <Compile Include="Assets\Plugins\IMobileSdkAdsUnityPlugin.cs" />
+     <Compile Include="Assets\Plugins\ImobileSdkAdsUnityPluginUtility.cs" />
+     <Compile Include="Assets\Plugins\MiniJSON.cs" />
+     <Compile Include="Assets\Plugins\Nend\AD\NendAd.cs" />
+     <Compile Include="Assets\Plugins\Nend\AD\NendAdBanner.cs" />
+     <Compile Include="Assets\Plugins\Nend\AD\NendAdIcon.cs" />
+     <Compile Include="Assets\Plugins\Nend\AD\NendAdInterstitial.cs" />
+     <Compile Include="Assets\Plugins\Nend\Callback\NendAdBannerCallback.cs" />
+     <Compile Include="Assets\Plugins\Nend\Callback\NendAdIconCallback.cs" />
+     <Compile Include="Assets\Plugins\Nend\Callback\NendAdInterstitialCallback.cs" />
+     <Compile Include="Assets\Plugins\Nend\Common\Gravity.cs" />
+     <Compile Include="Assets\Plugins\Nend\Common\NendAdErrorEventArgs.cs" />
+     <Compile Include="Assets\Plugins\Nend\Common\NendAdInterstitialEnumerations.cs" />
+     <Compile Include="Assets\Plugins\Nend\Common\NendErrorCode.cs" />
+     <Compile Include="Assets\Plugins\Nend\Common\NendUtils.cs" />
+     <Compile Include="Assets\Plugins\Nend\Common\Orientation.cs" />
+     <Compile Include="Assets\Plugins\Nend\Layout\NendAdDefaultLayoutBuilder.cs" />
+     <Compile Include="Assets\Plugins\Nend\Layout\NendAdDefaultLayoutParams.cs" />
+     <Compile Include="Assets\Plugins\Nend\Layout\NendAdIconLayoutBuilder.cs" />
+     <Compile Include="Assets\Plugins\Nend\Layout\NendAdIconLayoutParams.cs" />
+     <Compile Include="Assets\Plugins\Nend\Layout\NendAdLayoutBuilder.cs" />
+     <Compile Include="Assets\Plugins\Nend\Platform\Android\AndroidBannerInterface.cs" />
+     <Compile Include="Assets\Plugins\Nend\Platform\Android\AndroidIconInterface.cs" />
+     <Compile Include="Assets\Plugins\Nend\Platform\Android\AndroidInterstitialInterface.cs" />
+     <Compile Include="Assets\Plugins\Nend\Platform\NendAdBannerInterface.cs" />
+     <Compile Include="Assets\Plugins\Nend\Platform\NendAdIconInterface.cs" />
+     <Compile Include="Assets\Plugins\Nend\Platform\NendAdInterstitialInterface.cs" />
+     <Compile Include="Assets\Plugins\Nend\Platform\NendAdNativeInterfaceFactory.cs" />
+     <Compile Include="Assets\Plugins\Nend\Platform\iOS\IOSBannerInterface.cs" />
+     <Compile Include="Assets\Plugins\Nend\Platform\iOS\IOSInterstitialInterface.cs" />
+     <None Include="Assets\Plugins\Android\res\values-en-rGB\strings.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\res\values-sk\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-sw\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-hy-rAM\strings.xml" />
+     <None Include="Assets\Plugins\iOS\NADView_readme.txt" />
+     <None Include="Assets\Plugins\Android\res\values-be\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-fi\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values\ads_attrs.xml" />
+     <None Include="Assets\Plugins\Android\res\values-af\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-ru\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\common_signin_btn_text_light.xml" />
+     <None Include="Assets\Plugins\Android\res\values-da\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-de\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values\maps_attrs.xml" />
+     <None Include="Assets\Plugins\Android\res\values\colors.xml" />
+     <None Include="Assets\Plugins\Android\res\values\version.xml" />
+     <None Include="Assets\Plugins\Android\res\values-es\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-lt\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-vi\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-ro\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-sl\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\common_signin_btn_icon_light.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\common_signin_btn_text_dark.xml" />
+     <None Include="Assets\Plugins\Android\res\values-hu\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-en-rIN\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-pt-rPT\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-th\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-pt\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-in\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-lv\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-tr\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-zh-rCN\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-ka-rGE\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-ar\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-nl\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-sr\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-pt-rBR\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-ja\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-it\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-et-rEE\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-ca\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-pl\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-hi\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-fr-rCA\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-fa\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-es-rUS\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-zu\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-nb\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-uk\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-zh-rHK\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-km-rKH\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-tl\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\common_signin_btn_icon_dark.xml" />
+     <None Include="Assets\Plugins\Android\res\values-zh-rTW\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-hr\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-cs\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-bg\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-mn-rMN\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-lo-rLA\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-ko\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-fr\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-am\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\color\common_signin_btn_text_dark.xml" />
+     <None Include="Assets\Plugins\Android\res\color\common_signin_btn_text_light.xml" />
+     <None Include="Assets\Plugins\Android\res\values-ms-rMY\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-iw\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-sv\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-el\strings.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Cecil">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
